@@ -1,0 +1,18 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://fgtucv.github.io/pohotoLblari/",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build src/*.html --public-url /pressTheCorrectKey/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
